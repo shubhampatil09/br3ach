@@ -15,6 +15,6 @@ Simple tool to find your passwords from data br3aches if it has been pawn.
   pip install requests
   git clone https://github.com/shubhampatil09/br3ach
   cd br3ach
-  python python br3ach.py
+  python br3ach.py
 ```
 For first time add you API key and then enter your email, username or phone number.
