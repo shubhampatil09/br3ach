@@ -14,8 +14,7 @@ if ( a < b ):
  z= (x)
  #z = ('"' + str(x) + '"')
  y.write(z)
- y.close()
- import config 
+ y.close() 
  file1 = open("config.txt","r+") 
  M = (file1.read())
  val = input("Enter your username,email or phone: ")
@@ -28,7 +27,6 @@ if ( a < b ):
  response = requests.request("GET", url, headers=headers, params=querystring)
  print(response.text)
 else : 
- import config 
  file1 = open("config.txt","r+") 
  M = (file1.read())
  val = input("Enter your username,email or phone: ")
